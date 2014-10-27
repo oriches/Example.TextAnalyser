@@ -7,8 +7,8 @@
     <ProjectGuid>{D0B8A739-DFF9-48E2-AF59-7220761D6D71}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Example.TextAnalyser.Fixtures</RootNamespace>
-    <AssemblyName>Example.TextAnalyser.Fixtures</AssemblyName>
+    <RootNamespace>Example.TextAnalyser.Tests</RootNamespace>
+    <AssemblyName>Example.TextAnalyser.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\Example.TextAnalyser\</SolutionDir>
