@@ -8,6 +8,17 @@
     public class TextHelperFixtures
     {
         [Test]
+        public void null_text_returns_no_words()
+        {
+            // GIVEN
+            // WHEN
+            var results = TextHelper.WordCount(null);
+
+            // THEN
+            Assert.That(results, Is.Empty);
+        }
+
+        [Test]
         public void empty_text_returns_no_words()
         {
             // GIVEN
@@ -28,17 +39,6 @@
 
             // WHEN
             var results = TextHelper.WordCount(text);
-
-            // THEN
-            Assert.That(results, Is.Empty);
-        }
-
-        [Test]
-        public void null_text_returns_no_words()
-        {
-            // GIVEN
-            // WHEN
-            var results = TextHelper.WordCount(null);
 
             // THEN
             Assert.That(results, Is.Empty);
